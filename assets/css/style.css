@@ -656,6 +656,28 @@ section .container {
   background: #18d26e;
   border: 2px solid #18d26e;
 }
+.resume button{
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.resume .button button[type="Download"] {
+  position: absolute;
+  display:block;
+  background: #18d26e;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+  text-align: center;
+  /* width:50%; */
+  margin:0 auto;
+}
+.resume .button button[type="Download"]:hover{
+  background: #15bb62;
+}
 
 /*--------------------------------------------------------------
 # Services
