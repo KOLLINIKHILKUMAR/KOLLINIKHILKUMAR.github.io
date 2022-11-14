@@ -495,21 +495,22 @@ section .container {
 # Interests
 --------------------------------------------------------------*/
 .interests .icon-box {
-  display: flex;
+  display:flex;
   align-items: center;
   padding: 20px;
   background: rgba(255, 255, 255, 0.08);
   transition: ease-in-out 0.3s;
 }
 
-.interests .icon-box i {
-  font-size: 32px;
-  padding-right: 10px;
-  line-height: 1;
-}
+/* .interests .icon-box img { */
+  /* align-items: center; */
+  /* margin-left: 15px; */
+/* } */
 
 .interests .icon-box h3 {
   font-weight: 700;
+  letter-spacing: 1.5px;
+  text-align: center;
   margin: 0;
   padding: 0;
   line-height: 1;
